@@ -1,0 +1,2 @@
+include ':app', ':syd_camera_v1'
+project(':syd_camera_v1').projectDir = new File('syd_camera')
