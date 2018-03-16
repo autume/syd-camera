@@ -1,6 +1,6 @@
-#SydCamera
+# SydCamera
 
-##简介
+## 简介
 相机模块库,自定义相机，通过简单的调用即可实现拍照、图片裁剪、录像及录像抓拍功能;
 实现图片压缩，减少图片体积；自定义相机可避免使用系统相机导致的照片或视频体积过大问题；
 内置相机及sd卡权限获取的处理；
@@ -11,9 +11,11 @@
 - 录像
 - 录像抓拍
 
-![](/Users/oden/Documents/03.png)
-![](/Users/oden/Documents/04.png)
-![](/Users/oden/Documents/01.png)
+![](https://i.imgur.com/qepYG7m.png)
+
+![](https://i.imgur.com/hur1lTZ.png)
+
+![](https://i.imgur.com/ZmJ1nlj.png)
 
 ## 在项目中导入该库
 在工程的 build.gradle中加入：
