@@ -1,4 +1,5 @@
 #SydCamera
+
 ##简介
 相机模块库,自定义相机，通过简单的调用即可实现拍照、图片裁剪、录像及录像抓拍功能;
 实现图片压缩，减少图片体积；自定义相机可避免使用系统相机导致的照片或视频体积过大问题；
@@ -13,6 +14,24 @@
 ![](/Users/oden/Documents/03.png)
 ![](/Users/oden/Documents/04.png)
 ![](/Users/oden/Documents/01.png)
+
+## 在项目中导入该库
+在工程的 build.gradle中加入：
+```
+allprojects {
+		repositories {
+			...
+			maven { url "https://jitpack.io" }
+		}
+	}
+```
+module的build.gradle中加入依赖：
+```
+dependencies {
+	        compile 'com.github.autume:syd-camera:v1.0.0'
+	}
+```
+
 ## 使用
 
 ### 拍照
