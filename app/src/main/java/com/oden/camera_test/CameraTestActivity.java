@@ -111,7 +111,7 @@ public class CameraTestActivity extends AppCompatActivity {
     private void startCrop(String path) {
         Intent intent = new Intent(CameraTestActivity.this, SydCropActivity.class);
         intent.putExtra(CropParaUtil.cropQuality, 70); //图片质量0~100
-        intent.putExtra(CropParaUtil.cropTitle, "添加封面");
+        intent.putExtra(CropParaUtil.cropTitle, "图片裁剪");
         intent.putExtra(CropParaUtil.cropSrcPicPath, path);
         startActivityForResult(intent, CropParaUtil.REQUEST_CODE_FROM_CUTTING);
     }
@@ -119,7 +119,7 @@ public class CameraTestActivity extends AppCompatActivity {
     private void startCropForBitmap() {
         Intent intent = new Intent(CameraTestActivity.this, SydCropActivity.class);
         intent.putExtra(CropParaUtil.cropQuality, 70); //图片质量0~100
-        intent.putExtra(CropParaUtil.cropTitle, "添加封面");
+        intent.putExtra(CropParaUtil.cropTitle, "图片裁剪");
         startActivityForResult(intent, CropParaUtil.REQUEST_CODE_FROM_CUTTING);
     }
 

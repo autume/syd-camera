@@ -10,6 +10,9 @@
 - 录像
 - 录像抓拍
 
+![](/Users/oden/Documents/03.png)
+![](/Users/oden/Documents/04.png)
+![](/Users/oden/Documents/01.png)
 ## 使用
 
 ### 拍照
